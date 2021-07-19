@@ -18,8 +18,8 @@ var config = {
         image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/02/our-impact.jpg',
         description: '',
         location: {
-            center: [30.854, 1.27],
-            zoom: 6.59,
+            center: [47.54, 0.15],
+            zoom: 2.46,
             pitch: 0,
             bearing: 0
         },
@@ -64,14 +64,14 @@ var config = {
       },
         {
             id: 'History',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
-            title: 'Chapter 1: History',
+            title: 'History',
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/child-homework.jpg',
             description: '<b>600</b> million people in sub-Saharan Africa live without access to safe, reliable electricity. When the sun goes down, businesses close, streets grow dark, and homes are lit with dangerous, expensive and polluting kerosene and candles. Recognizing the power of solar to brighten lives, combat poverty and support sustainable development, we work with local partners to Let There Be Light International.',
             location: {
-                center: [30.854, 1.27],
-                zoom: 6.59,
+                center: [47.54, 0.15],
+                zoom: 2.46,
                 pitch: 0,
                 bearing: 0
             },
@@ -83,40 +83,22 @@ var config = {
         },
         {
             id: 'Impact Info General',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Energy Poverty in Uganda',
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/young-boy-with-solar-light.jpg',
             description: 'In 2014, Let There Be Light International began operations in Uganda, where 70% of the population and 25% of health clinics have no electricity. Working with local NGO partners, <b>54</b> rural Health Clinics received solar-electrification and 17,600 at-risk families have safe solar lights. 740,000 people have access to electrified clinics and 95,000 people have light at home.',
             location: {
-                center: [32.593, 0.476],
-                zoom: 7.7,
+                center: [30.854, 1.27],
+                zoom: 6.59,
                 pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-              {
-                layer: 'data-driven-circles',
-                opacity: 1
-              },
-              {
-                layer: 'data-driven-circles-labels',
-                opacity: 1
-              }
-          ],
-            onChapterExit: [
-              {
-                layer: 'data-driven-circles',
-                opacity: 0
-              },
-              {
-                layer: 'data-driven-circles-labels',
-                opacity: 0
-              }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
           id: 'Impact Info Lives Impacted',
