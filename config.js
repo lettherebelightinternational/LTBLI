@@ -8,7 +8,7 @@ var config = {
     title: 'Solar Lights are Changing Lives',
     subtitle: 'Let There Be Light International',
     byline: '',
-    footer: 'Developed by Annie Lee, Duke University ‘22, and Alissa Benchimol, Greenhouse Gas Management Institute',
+    footer: 'Developed by Annie Lee, Duke University ‘22, and Alissa Benchimol, Greenhouse Gas Management Institute. Icons made by https://www.flaticon.com/authors/monkik and https://www.flaticon.com/authors/freepik. Image Source: NOAA',
     chapters: [
       {
         id: 'Intro',
