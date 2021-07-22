@@ -18,8 +18,8 @@ var config = {
         image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/02/our-impact.jpg',
         description: '',
         location: {
-            center: [47.54, 0.15],
-            zoom: 2.46,
+            center: [38.68, -8.74],
+            zoom: 3.17,
             pitch: 0,
             bearing: 0
         },
@@ -70,8 +70,8 @@ var config = {
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/child-homework.jpg',
             description: '<b>600</b> million people in sub-Saharan Africa live without access to safe, reliable electricity. When the sun goes down, businesses close, streets grow dark, and homes are lit with dangerous, expensive and polluting kerosene and candles. Recognizing the power of solar to brighten lives, combat poverty and support sustainable development, we work with local partners to Let There Be Light International.',
             location: {
-                center: [47.54, 0.15],
-                zoom: 2.46,
+                center: [38.68, -8.74],
+                zoom: 3.17,
                 pitch: 0,
                 bearing: 0
             },
