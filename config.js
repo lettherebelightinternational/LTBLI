@@ -8,7 +8,7 @@ var config = {
     title: 'Solar Lights are Changing Lives',
     subtitle: 'Let There Be Light International',
     byline: '',
-    footer: 'Developed by Annie Lee, Duke University ‘22, and Alissa Benchimol, Greenhouse Gas Management Institute. Icons made by https://www.flaticon.com/authors/monkik and https://www.flaticon.com/authors/freepik. Image Source: NOAA',
+    footer: 'Developed by Annie Lee, Duke University ‘22, and Alissa Benchimol, Greenhouse Gas Management Institute',
     chapters: [
       {
         id: 'Intro',
@@ -18,8 +18,8 @@ var config = {
         image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/02/our-impact.jpg',
         description: '',
         location: {
-            center: [38.68, -8.74],
-            zoom: 3.17,
+            center: [43.82, -7.17],
+            zoom: 4.26,
             pitch: 0,
             bearing: 0
         },
@@ -27,14 +27,6 @@ var config = {
         rotateAnimation: false,
         callback: '',
         onChapterEnter: [
-          {
-            layer: 'data-driven-circles',
-            opacity: 0
-          },
-          {
-            layer: 'data-driven-circles-labels',
-            opacity: 0
-          },
           {
             layer: 'kmu',
             opacity: 0
@@ -58,6 +50,10 @@ var config = {
           {
             layer: 'uganda',
             opacity: 0
+          },
+          {
+            layer: 'end',
+            opacity: 0
           }
         ],
         onChapterExit: []
@@ -70,8 +66,8 @@ var config = {
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/child-homework.jpg',
             description: '<b>600</b> million people in sub-Saharan Africa live without access to safe, reliable electricity. When the sun goes down, businesses close, streets grow dark, and homes are lit with dangerous, expensive and polluting kerosene and candles. Recognizing the power of solar to brighten lives, combat poverty and support sustainable development, we work with local partners to Let There Be Light International.',
             location: {
-                center: [38.68, -8.74],
-                zoom: 3.17,
+                center: [43.82, -7.17],
+                zoom: 4.26,
                 pitch: 0,
                 bearing: 0
             },
@@ -204,27 +200,8 @@ var config = {
           alignment: 'left',
           hidden: false,
           title: 'Impact Info Lights Distributed',
-          image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/05/Elizabeth-enrolled-midwife-examining-a-child-at-Kabowa-HCII-e1595366748153.jpeg',
-          description: '<b>2,715 new mothers</b> have participated in Let There Be Light International’s Safe Births + Healthy Homes program at 5 rural Health Clinics in Uganda. Key impacts include increased attended birth rates, decreased reliance on dangerous and polluting kerosene and candles for light, improved finances, and increased anti-malarial bed-net usage. <b>14,500 people</b> are benefiting from improved lighting in their homes.',
-          location: {
-              center: [31.14132, 0.83573],
-              zoom: 6.86,
-              pitch: 0,
-              bearing: 0
-          },
-          mapAnimation: 'flyTo',
-          rotateAnimation: false,
-          callback: '',
-          onChapterEnter: [],
-          onChapterExit: []
-        },
-        {
-          id: 'Tereza',
-          alignment: 'left',
-          hidden: false,
-          title: 'Tereza',
-          image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/02/Teresa.jpg',
-          description: 'Tereza, a mother of 3, is grateful for the solar light she received through Safe Births + Healthy Homes. With the money she’s saved on lighting she even bought a pig! She also was able to purchase a solar system to keep her small shop open an additional three hours each night, increasing her household’s economic stability and wellbeing.<a href="https://www.lettherebelightinternational.org/safe-births-healthy-homes/" target="_blank" rel="noopener noreferrer">View</a> project page.',
+          image: '',
+          description: '<iframe width="350" height="300" src="https://www.youtube.com/embed/1IwU_NJ8cfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <b>2,715 new mothers</b> have participated in Let There Be Light International’s Safe Births + Healthy Homes program at 5 rural Health Clinics in Uganda. Key impacts include increased attended birth rates, decreased reliance on dangerous and polluting kerosene and candles for light, improved finances, and increased anti-malarial bed-net usage. <b>14,500 people</b> are benefiting from improved lighting in their homes.',
           location: {
               center: [31.486357, 1.273585],
               zoom: 16.79,
@@ -435,8 +412,8 @@ var config = {
         alignment: 'right',
         hidden: false,
         title: 'St. Mary’s Health Center - Sironko District',
-        image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-16-at-1.15.32-AM.png',
-        description: 'St. Mary’s Health Center III is located in a beautiful but remote region near Mt. Elgon and the Ugandan border with Kenya. <b>8,000</b> people live in the area served by the clinic. 140 people seek care every week with 30+ births a month. St. Mary’s received a large system capable of powering the clinic, staff quarters and administrative offices.',
+        image: '',
+        description: '<iframe width="350" height="300" src="https://www.youtube.com/embed/nvBsfUJJp7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> St. Mary’s Health Center III is located in a beautiful but remote region near Mt. Elgon and the Ugandan border with Kenya. <b>8,000</b> people live in the area served by the clinic. 140 people seek care every week with 30+ births a month. St. Mary’s received a large system capable of powering the clinic, staff quarters and administrative offices.',
         location: {
             center: [34.292014, 1.232707],
             zoom: 16.65,
@@ -483,17 +460,22 @@ var config = {
         hidden: false,
         title: 'Join Us',
         image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-16-at-1.39.58-AM.png',
-        description: 'Too many people still lack electricity. With solar, we have the power to combat climate change and ensure that no one is left in the dark. Let There Be Light International is committed to working together to shine a light in the darkness. Solar lights are changing lives. Join us as we Shine On and <a href="https://www.lettherebelightinternational.org/" target="_blank" rel="noopener noreferrer">Let There Be Light International</a>!',
+        description: 'Too many people still lack electricity. With solar, we have the power to combat climate change and ensure that no one is left in the dark. Let There Be Light International is committed to working together to shine a light in the darkness. Solar lights are changing lives. Join us as we Shine On and <a href="https://www.lettherebelightinternational.org/" target="_blank" rel="noopener noreferrer">LTBLI</a>! <iframe width="330" height="300" src="https://www.youtube.com/embed/n5GxX2q17pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         location: {
-            center: [-60.5, 25.4],
-            zoom: 0.95,
+            center: [-95.5, 13.5],
+            zoom: 1.28,
             pitch: 0,
             bearing: 0
         },
         mapAnimation: 'flyTo',
         rotateAnimation: false,
         callback: '',
-        onChapterEnter: [],
+        onChapterEnter: [
+          {
+            layer: 'end',
+            opacity: 1
+          }
+        ],
         onChapterExit: []
       }
     ]
