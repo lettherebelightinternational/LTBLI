@@ -365,7 +365,7 @@ var config = {
         hidden: false,
         title: '54 Health Clinics Electrified',
         image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2020/04/IMG_20190417_203320_5-scaled-1.jpg',
-        description: 'Too many rural health clinics in Africa remain off-grid and unelectrified. We’re looking to change that. Working with local Health Officers and Nurses, LTBLI is providing solar systems that power remote clinics, improving healthcare delivery and access for <b>hundreds of thousands of people</b>. Nurses, midwives and patients are able to access clinics 24/7 and facilities are safer for everyone.',
+        description: 'Many rural health clinics in Africa remain off-grid and unelectrified. We’re looking to change that. Working with local Health Officers and Nurses, LTBLI is providing solar systems that power remote clinics, improving healthcare delivery and access for <b>hundreds of thousands of people</b>. Nurses, midwives and patients are able to access clinics 24/7 and facilities are safer for everyone.',
         location: {
           center: [31.398, 0.515],
           zoom: 8.14,
