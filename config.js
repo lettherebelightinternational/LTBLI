@@ -459,8 +459,8 @@ var config = {
         alignment: 'left',
         hidden: false,
         title: 'Join Us',
-        image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-16-at-1.39.58-AM.png',
-        description: 'Too many people still lack electricity. With solar, we have the power to combat climate change and ensure that no one is left in the dark. Let There Be Light International is committed to working together to shine a light in the darkness. Solar lights are changing lives. Join us as we Shine On and <a href="https://www.lettherebelightinternational.org/" target="_blank" rel="noopener noreferrer">LTBLI</a>! <iframe width="330" height="300" src="https://www.youtube.com/embed/n5GxX2q17pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+        image: '',
+        description: '<iframe width="350" height="300" src="https://www.youtube.com/embed/n5GxX2q17pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Too many people still lack electricity. With solar, we have the power to combat climate change and ensure that no one is left in the dark. Let There Be Light International is committed to working together to shine a light in the darkness. Solar lights are changing lives. Join us as we Shine On and donate at <a href="https://www.lettherebelightinternational.org/" target="_blank" rel="noopener noreferrer">Let There Be Light International</a>!',
         location: {
             center: [-95.5, 13.5],
             zoom: 1.28,
