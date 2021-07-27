@@ -54,7 +54,11 @@ var config = {
           {
             layer: 'end',
             opacity: 0
-          }
+          },
+            {
+                layer: 'join-us',
+                opacity: 0
+            }
         ],
         onChapterExit: []
       },
@@ -474,7 +478,15 @@ var config = {
           {
             layer: 'end',
             opacity: 1
-          }
+          },
+            {
+                layer: 'place-labels',
+                opacity: 0
+            },
+            {
+                layer: 'join-us',
+                opacity: 1
+            }
         ],
         onChapterExit: []
       }
