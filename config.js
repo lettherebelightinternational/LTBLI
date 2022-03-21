@@ -87,7 +87,7 @@ var config = {
             hidden: false,
             title: 'Energy Poverty in Uganda',
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/young-boy-with-solar-light.jpg',
-            description: 'In 2014, Let There Be Light International began operations in Uganda, where 70% of the population and 25% of health clinics have no electricity. Working with local NGO partners, <b>65</b> rural Health Clinics received solar-electrification and 17,600 at-risk families have safe solar lights. 740,000 people have access to electrified clinics and 95,000 people have light at home.',
+            description: 'In 2014, Let There Be Light International began operations in Uganda, where 70% of the population and 25% of health clinics have no electricity. Working with local NGO partners, <b>65</b> rural Health Clinics received solar-electrification and 25,000 at-risk families have safe solar lights. 740,000 people have access to electrified clinics and 95,000 people have light at home.',
             location: {
                 center: [30.854, 1.27],
                 zoom: 6.59,
