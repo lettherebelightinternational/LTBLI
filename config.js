@@ -87,7 +87,7 @@ var config = {
             hidden: false,
             title: 'Energy Poverty in Uganda',
             image: 'https://www.lettherebelightinternational.org/wp-content/uploads/2021/01/young-boy-with-solar-light.jpg',
-            description: 'In 2014, Let There Be Light International began operations in Uganda, where 70% of the population and 25% of health clinics have no electricity. Working with local NGO partners, <b>54</b> rural Health Clinics received solar-electrification and 17,600 at-risk families have safe solar lights. 740,000 people have access to electrified clinics and 95,000 people have light at home.',
+            description: 'In 2014, Let There Be Light International began operations in Uganda, where 70% of the population and 25% of health clinics have no electricity. Working with local NGO partners, <b>65</b> rural Health Clinics received solar-electrification and 17,600 at-risk families have safe solar lights. 740,000 people have access to electrified clinics and 95,000 people have light at home.',
             location: {
                 center: [30.854, 1.27],
                 zoom: 6.59,
@@ -205,7 +205,7 @@ var config = {
           hidden: false,
           title: 'Impact Info Lights Distributed',
           image: '',
-          description: '<iframe width="350" height="300" src="https://www.youtube.com/embed/1IwU_NJ8cfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <b>2,715 new mothers</b> have participated in Let There Be Light International’s Safe Births + Healthy Homes program at 5 rural Health Clinics in Uganda. Key impacts include increased attended birth rates, decreased reliance on dangerous and polluting kerosene and candles for light, improved finances, and increased anti-malarial bed-net usage. <b>14,500 people</b> are benefiting from improved lighting in their homes.',
+          description: '<iframe width="350" height="300" src="https://www.youtube.com/embed/1IwU_NJ8cfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <b>3,800 new mothers</b> have participated in Let There Be Light International’s Safe Births + Healthy Homes program at 5 rural Health Clinics in Uganda. Key impacts include increased attended birth rates, decreased reliance on dangerous and polluting kerosene and candles for light, improved finances, and increased anti-malarial bed-net usage. <b>14,500 people</b> are benefiting from improved lighting in their homes.',
           location: {
               center: [31.486357, 1.273585],
               zoom: 16.79,
